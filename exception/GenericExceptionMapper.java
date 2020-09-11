@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import org.sdate.services.Hedwig.model.ErrorMessage;
 
-@Provider
+// @Provider
 public class GenericExceptionMapper implements ExceptionMapper<Throwable> {
 
 	@Override

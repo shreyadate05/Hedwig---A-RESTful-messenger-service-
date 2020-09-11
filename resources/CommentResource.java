@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
 import org.sdate.services.Hedwig.model.Comment;
 import org.sdate.services.Hedwig.service.CommentService;
 
-//@Path("/comments")
+@Path("/")
 @Consumes(MediaType.APPLICATION_JSON)            // request  body is JSON
 @Produces(MediaType.APPLICATION_JSON)            // response body is JSON
 public class CommentResource {
